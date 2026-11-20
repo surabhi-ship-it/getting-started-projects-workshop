@@ -21,6 +21,8 @@ If you finish early, help a neighbour. If you run over, stop at a working versio
 ## If you upload this file in a chat — paste this after uploading it
 Uploading the file alone is not enough — Claude will treat it as reference unless you tell it to follow it. So upload this file, then paste this, in the same message or the next one:
 
+**First, pick your track:** in the prompt below, delete the four tracks you are *not* doing and leave only yours — for example, just "goal tracker".
+
 > Use the attached worksheet as my guide and follow it exactly. I want to build my [life action plan / goal tracker / nutrition planner / weekly admin center / vision board].
 >
 > Interview me to build it, one question at a time, starting with the fun name question in the worksheet, then the questions for my track. Wait for my answer before asking the next one. Do not build anything until you have asked all my track's questions, including the theme question about my favourite movie, character, or movie star.
@@ -32,6 +34,8 @@ Uploading the file alone is not enough — Claude will treat it as reference unl
 That one prompt starts the whole workflow. You do not need to paste the starter prompt below as well — this upload prompt replaces it when you have uploaded the file.
 
 ## The starter prompt — paste this first
+**First, pick your track:** delete the four you are *not* doing from the line below and leave only yours.
+
 > Interview me to build my [life action plan / goal tracker / nutrition planner / weekly admin center / vision board].
 >
 > Ask me ONE question at a time, and wait for my answer before asking the next one. Do not build anything until you have asked the questions for my track below.
@@ -59,7 +63,7 @@ This is for every track, all the way through. Claude should:
 - Start with a welcome, not a question: "You are doing this — your first build with AI. Let us make it yours, in your words."
 - Ask the questions below in its own warm words, like a conversation — not read them out like a form. Keep the meaning, change the wording so it sounds human and fun.
 - After each answer, say one short, specific encouraging line about what you just said — not generic praise like "Great job!", but something that shows it heard you, for example "That is a clear why — that will keep you going on a busy day."
-- Tell you where you are: after the third question, "You are halfway — look how much you have already told me." After the last question, "That is everything I need — now I will build it for you."
+- Tell you where you are: around the middle of your track's questions, "You are well on your way — look how much you have already told me." After the last question, "That is everything I need — now I will build it for you."
 - If you say "I don't know," never judge it. Say "No problem — here are two or three easy options, pick the one that feels closest, or tell me in your own words."
 - Never lecture, never say "you should," never use jargon. Short answers are enough. If an answer is short, that is fine — Claude will work with it.
 - When it shows you your dashboard, celebrate it with you: "You built this — in 30 minutes, with your own words. This is your first step building with AI, and you did it."
@@ -193,10 +197,9 @@ That pattern step is built into every track's weekly check-in — you do not nee
 
 **What you get:** a personal dashboard in your theme colours — your goals, your empowering words, and one supporting habit per goal, laid out as a board you can look at every morning.
 
-**Images — two beginner options, in the browser:**
-- **Your own photo:** upload it to Claude and ask it to place it on the board. Simplest, and most personal.
-- **Generated images:** use Nano Banana in Gemini (gemini.google.com, sign in with a Google account) — describe the picture in plain words, for example "a calm morning kitchen, sunlight, coffee, notebook, soft colours." Or use Muse to generate an image the same way. Download the image, then upload it to Claude and ask: "Put this image on my vision board under [goal]."
-- Keep it to one image per goal, so you finish in 30 minutes. Words first, images second.
+**Images — for Friday, keep it simple:**
+- **Your own photo (do this on Friday):** upload it to Claude and ask it to place it on the board. Simplest, most personal, and no extra sign-in — so you finish in 30 minutes. Words first, images second: one image per goal is plenty.
+- **Generated images (optional, do later at home):** if you want AI-made pictures, you can use an image generator like Nano Banana in Gemini (gemini.google.com, sign in with a Google account) — describe the picture in plain words, for example "a calm morning kitchen, sunlight, coffee, notebook, soft colours." Download the image, then upload it to Claude and ask: "Put this image on my vision board under [goal]." Skip this during the workshop — the second sign-in eats your 30 minutes.
 
 **Test it:** read the board out loud. Does it sound like you? If a word feels wrong, change that one word.
 
@@ -230,9 +233,9 @@ Ask Claude for each size, one at a time, in the same chat:
 - **WhatsApp Status — vertical, 1080 × 1920 px**
 
 **How to save and share it:**
-Claude does not generate a photo or JPG directly — it builds the certificate with HTML and SVG code, which is why it stays sharp at any size. To turn it into an image you can post:
-- Open the certificate artifact, use **Copy as image**, or download it as .svg / .html, then screenshot it at the size you asked for.
-- Or ask Claude: "Save this certificate as a PNG file at 1080 × 1080" — Claude can save a PNG file you can download.
+Claude builds the certificate with HTML and SVG code, which is why it stays sharp at any size. To turn it into an image you can post, use the way that always works first:
+- **Easiest, works for everyone:** open the certificate artifact and use **Copy as image**, or just screenshot it on your screen at the size you want. That is all you need to post it.
+- **Optional:** you can also try asking Claude, "Save this certificate as a PNG at 1080 × 1080." This may work depending on your plan — if it does not, use Copy as image or a screenshot above.
 - Then post it, or keep it with you. A short caption if you want one: "I built my [project name] with Claude at the Build with Claude Workshop with Vahati. Never settle."
 
 If your name is spelled wrong, or a colour feels off, say so in one line — Claude will fix that one thing on the certificate, without changing your dashboard.
