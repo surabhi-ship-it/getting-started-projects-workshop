@@ -95,6 +95,8 @@ Your dashboard is not finished on Friday. It is a living log.
 
 For example: "Daily log — Sat Nov 21, 8:00 AM: did my 10-minute walk, easy. Skipped the evening reading, too tired after work."
 
+*Tip — keep a backup:* jot each daily log line in a note on your phone too. If a chat gets very long over the weeks, Claude may ask you to paste your log back in so nothing gets lost when it rebuilds the dashboard.
+
 **What Claude does with each daily log:**
 - Adds it to your dashboard's dated log, with its date and time — newest at the top, so you can scroll back and see the week.
 - Checks off that day, updates your streak, and updates the "this week" summary at the top.
@@ -160,12 +162,12 @@ That pattern step is built into every track's weekly check-in — you do not nee
 - How much time do you want to spend cooking on a weekday, and what is your rough budget?
 - Any health notes Claude should know in one line — for example, "I feel better with more protein at breakfast"?
 
-**What you get:** a personal dashboard in your theme colours — three options for the whole week, each one a simple set of meals, a grocery list, and a rough nutrition breakdown (protein, carbs, fat, calories — estimates, not medical measurements). Pick one option and use it.
+**What you get:** a personal dashboard in your theme colours — three options for the whole week, each one a simple set of meals and a grocery list, plus a simple protein/energy signal for each (for example "higher protein" or "lighter day" — a rough guide, not exact grams or calories). Pick one option and use it. Claude also puts a "general food planning, not medical advice" line on the dashboard itself, so it travels with the plan.
 
 **Test it:** check one day against a real day last week — would you actually have cooked this?
 
 **Every week — paste this in the same chat:**
-> Weekly check-in for my nutrition planner. Here is what I actually ate this week, and what was easy or hard: [2–3 lines]. Give me three options for next week based on that, with a grocery list and a rough nutrition breakdown.
+> Weekly check-in for my nutrition planner. Here is what I actually ate this week, and what was easy or hard: [2–3 lines]. Give me three options for next week based on that, with a grocery list and a simple protein/energy signal for each (a rough guide, not exact numbers).
 
 *Claude is not a doctor or a dietitian. This is general food planning, not medical advice. If you have a medical condition, check the plan with your clinician.*
 
@@ -180,6 +182,8 @@ That pattern step is built into every track's weekly check-in — you do not nee
 - Look at your week: which day is overloaded, and what could move, be dropped, or be delegated?
 
 **What you get:** a personal dashboard in your theme colours — a week view with bills by due date, admin tasks grouped by stack, deadlines flagged, and one overloaded day named, with a suggestion for what to move.
+
+*Keep this one private:* it holds your bills and deadlines, so don't share the artifact link with anyone.
 
 **Test it:** pick the busiest day and check — does the plan actually fit, or does something need to move?
 
